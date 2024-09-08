@@ -31,7 +31,7 @@ function createClient(id, cmd) {
       puppeteer: {
           args: ['--no-sandbox'],
           headless: true,
-          executablePath: '/usr/bin/google-chrome/usr/bin/google-chrome',
+          executablePath: '/usr/bin/google-chrome',
       },
       webVersionCache: {
         type: 'remote',
